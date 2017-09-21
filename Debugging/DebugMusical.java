@@ -4,13 +4,15 @@ public class DebugMusical extends DebugPlay
    
    DebugMusical(String title, String author, String comp)
    {
-      super(title);
-      composer = composer;
+      super(title,comp);
+      composer = comp;
+      this.title = title;
+      this.author =author;
    }
    public void display()
    {
-      System.out.println("The performance is  + title +
-        " by " + author + "\nThe music for " + title 
+      System.out.println("The performance is"  + title +
+        " by " + author + "\nThe music for " + title +
         " is by " + composer);
    }
 }

@@ -1,7 +1,5 @@
-public class DebugExtendedVacation extends DebugVacation
-{
-   public DebugVacation()
-   {
-      days = 30;
+public class DebugExtendedVacation extends DebugVacation {
+   DebugExtendedVacation() {
+      int days = 30;
    }
 }
